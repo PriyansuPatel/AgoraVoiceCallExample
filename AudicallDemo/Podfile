@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AudicallDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AudicallDemo
+  pod 'AgoraAudio_iOS'
+  pod 'Floaty', '~> 4.2.0'
+  pod 'AGEVideoLayout', '~> 1.0.2'
+  pod 'AgoraAudio_iOS', '4.2.2'
+  
+  target 'AudicallDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'AudicallDemoUITests' do
+    # Pods for testing
+  end
+
+end

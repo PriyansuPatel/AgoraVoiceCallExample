@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		223773C22AD11D7A005B4C96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223773C12AD11D7A005B4C96 /* AppDelegate.swift */; };
+		223773C42AD11D7A005B4C96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223773C32AD11D7A005B4C96 /* SceneDelegate.swift */; };
+		223773C62AD11D7A005B4C96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223773C52AD11D7A005B4C96 /* ViewController.swift */; };
+		223773C92AD11D7A005B4C96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223773C72AD11D7A005B4C96 /* Main.storyboard */; };
+		223773CB2AD11D7C005B4C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223773CA2AD11D7C005B4C96 /* Assets.xcassets */; };
+		223773CE2AD11D7C005B4C96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223773CC2AD11D7C005B4C96 /* LaunchScreen.storyboard */; };
+		223773D92AD11D7C005B4C96 /* AudicallDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223773D82AD11D7C005B4C96 /* AudicallDemoTests.swift */; };
+		223773E32AD11D7C005B4C96 /* AudicallDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223773E22AD11D7C005B4C96 /* AudicallDemoUITests.swift */; };
+		223773E52AD11D7C005B4C96 /* AudicallDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223773E42AD11D7C005B4C96 /* AudicallDemoUITestsLaunchTests.swift */; };
+		228B516F2AD3C5B700083161 /* JionCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B516E2AD3C5B700083161 /* JionCallViewController.swift */; };
+		228B51712AD3CCE700083161 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B51702AD3CCE700083161 /* Util.swift */; };
+		228B51732AD3D46500083161 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B51722AD3D46500083161 /* NetworkManager.swift */; };
+		228B51752AD3D49800083161 /* JSONObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B51742AD3D49800083161 /* JSONObject.swift */; };
+		228B51772AD3D82400083161 /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B51762AD3D82400083161 /* StoryboardHelper.swift */; };
+		29641B8DE83DEF9BB4352095 /* Pods_AudicallDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F6862FC566171504FE7F26 /* Pods_AudicallDemoTests.framework */; };
+		6F3CAA3B39C0210C53BF8C52 /* Pods_AudicallDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD092DE2108F67278575F9FE /* Pods_AudicallDemo.framework */; };
+		992E255FA100C9DF95CE3473 /* Pods_AudicallDemo_AudicallDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EE17B7C0AD15636FFFAC22 /* Pods_AudicallDemo_AudicallDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		223773D52AD11D7C005B4C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 223773B62AD11D7A005B4C96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 223773BD2AD11D7A005B4C96;
+			remoteInfo = AudicallDemo;
+		};
+		223773DF2AD11D7C005B4C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 223773B62AD11D7A005B4C96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 223773BD2AD11D7A005B4C96;
+			remoteInfo = AudicallDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0512D46058D335A5ED1DED62 /* Pods-AudicallDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudicallDemoTests.release.xcconfig"; path = "Target Support Files/Pods-AudicallDemoTests/Pods-AudicallDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		18EC483A00228521A00DEDBF /* Pods-AudicallDemo-AudicallDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudicallDemo-AudicallDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-AudicallDemo-AudicallDemoUITests/Pods-AudicallDemo-AudicallDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		223773BE2AD11D7A005B4C96 /* AudicallDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudicallDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		223773C12AD11D7A005B4C96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		223773C32AD11D7A005B4C96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		223773C52AD11D7A005B4C96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		223773C82AD11D7A005B4C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		223773CA2AD11D7C005B4C96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		223773CD2AD11D7C005B4C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		223773CF2AD11D7C005B4C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223773D42AD11D7C005B4C96 /* AudicallDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudicallDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		223773D82AD11D7C005B4C96 /* AudicallDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudicallDemoTests.swift; sourceTree = "<group>"; };
+		223773DE2AD11D7C005B4C96 /* AudicallDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudicallDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		223773E22AD11D7C005B4C96 /* AudicallDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudicallDemoUITests.swift; sourceTree = "<group>"; };
+		223773E42AD11D7C005B4C96 /* AudicallDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudicallDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		228B516E2AD3C5B700083161 /* JionCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JionCallViewController.swift; sourceTree = "<group>"; };
+		228B51702AD3CCE700083161 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		228B51722AD3D46500083161 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		228B51742AD3D49800083161 /* JSONObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONObject.swift; sourceTree = "<group>"; };
+		228B51762AD3D82400083161 /* StoryboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
+		9FE6A38F407C4E4DC50E7930 /* Pods-AudicallDemo-AudicallDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudicallDemo-AudicallDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-AudicallDemo-AudicallDemoUITests/Pods-AudicallDemo-AudicallDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BD092DE2108F67278575F9FE /* Pods_AudicallDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudicallDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EE17B7C0AD15636FFFAC22 /* Pods_AudicallDemo_AudicallDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudicallDemo_AudicallDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D855CE08878D7D8B69C8043A /* Pods-AudicallDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudicallDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-AudicallDemoTests/Pods-AudicallDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3F6862FC566171504FE7F26 /* Pods_AudicallDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudicallDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFD9C14829CFFECA1D8C737 /* Pods-AudicallDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudicallDemo.debug.xcconfig"; path = "Target Support Files/Pods-AudicallDemo/Pods-AudicallDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FBBFB2E5929B67FF6F21752A /* Pods-AudicallDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudicallDemo.release.xcconfig"; path = "Target Support Files/Pods-AudicallDemo/Pods-AudicallDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		223773BB2AD11D7A005B4C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3CAA3B39C0210C53BF8C52 /* Pods_AudicallDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223773D12AD11D7C005B4C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29641B8DE83DEF9BB4352095 /* Pods_AudicallDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223773DB2AD11D7C005B4C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992E255FA100C9DF95CE3473 /* Pods_AudicallDemo_AudicallDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		223773B52AD11D7A005B4C96 = {
+			isa = PBXGroup;
+			children = (
+				223773C02AD11D7A005B4C96 /* AudicallDemo */,
+				223773D72AD11D7C005B4C96 /* AudicallDemoTests */,
+				223773E12AD11D7C005B4C96 /* AudicallDemoUITests */,
+				223773BF2AD11D7A005B4C96 /* Products */,
+				AE79689E53F525DDA82A638D /* Pods */,
+				6CEF921CCD05DA211B08F0C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		223773BF2AD11D7A005B4C96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				223773BE2AD11D7A005B4C96 /* AudicallDemo.app */,
+				223773D42AD11D7C005B4C96 /* AudicallDemoTests.xctest */,
+				223773DE2AD11D7C005B4C96 /* AudicallDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		223773C02AD11D7A005B4C96 /* AudicallDemo */ = {
+			isa = PBXGroup;
+			children = (
+				223773C12AD11D7A005B4C96 /* AppDelegate.swift */,
+				223773C32AD11D7A005B4C96 /* SceneDelegate.swift */,
+				223773C52AD11D7A005B4C96 /* ViewController.swift */,
+				228B516E2AD3C5B700083161 /* JionCallViewController.swift */,
+				228B51722AD3D46500083161 /* NetworkManager.swift */,
+				228B51762AD3D82400083161 /* StoryboardHelper.swift */,
+				228B51742AD3D49800083161 /* JSONObject.swift */,
+				223773C72AD11D7A005B4C96 /* Main.storyboard */,
+				223773CA2AD11D7C005B4C96 /* Assets.xcassets */,
+				223773CC2AD11D7C005B4C96 /* LaunchScreen.storyboard */,
+				223773CF2AD11D7C005B4C96 /* Info.plist */,
+				228B51702AD3CCE700083161 /* Util.swift */,
+			);
+			path = AudicallDemo;
+			sourceTree = "<group>";
+		};
+		223773D72AD11D7C005B4C96 /* AudicallDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				223773D82AD11D7C005B4C96 /* AudicallDemoTests.swift */,
+			);
+			path = AudicallDemoTests;
+			sourceTree = "<group>";
+		};
+		223773E12AD11D7C005B4C96 /* AudicallDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				223773E22AD11D7C005B4C96 /* AudicallDemoUITests.swift */,
+				223773E42AD11D7C005B4C96 /* AudicallDemoUITestsLaunchTests.swift */,
+			);
+			path = AudicallDemoUITests;
+			sourceTree = "<group>";
+		};
+		6CEF921CCD05DA211B08F0C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD092DE2108F67278575F9FE /* Pods_AudicallDemo.framework */,
+				D0EE17B7C0AD15636FFFAC22 /* Pods_AudicallDemo_AudicallDemoUITests.framework */,
+				E3F6862FC566171504FE7F26 /* Pods_AudicallDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE79689E53F525DDA82A638D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBFD9C14829CFFECA1D8C737 /* Pods-AudicallDemo.debug.xcconfig */,
+				FBBFB2E5929B67FF6F21752A /* Pods-AudicallDemo.release.xcconfig */,
+				18EC483A00228521A00DEDBF /* Pods-AudicallDemo-AudicallDemoUITests.debug.xcconfig */,
+				9FE6A38F407C4E4DC50E7930 /* Pods-AudicallDemo-AudicallDemoUITests.release.xcconfig */,
+				D855CE08878D7D8B69C8043A /* Pods-AudicallDemoTests.debug.xcconfig */,
+				0512D46058D335A5ED1DED62 /* Pods-AudicallDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		223773BD2AD11D7A005B4C96 /* AudicallDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223773E82AD11D7C005B4C96 /* Build configuration list for PBXNativeTarget "AudicallDemo" */;
+			buildPhases = (
+				74AD799AA5A7892B18A4520B /* [CP] Check Pods Manifest.lock */,
+				223773BA2AD11D7A005B4C96 /* Sources */,
+				223773BB2AD11D7A005B4C96 /* Frameworks */,
+				223773BC2AD11D7A005B4C96 /* Resources */,
+				B70DEC5687C8766E543FCB43 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudicallDemo;
+			productName = AudicallDemo;
+			productReference = 223773BE2AD11D7A005B4C96 /* AudicallDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		223773D32AD11D7C005B4C96 /* AudicallDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223773EB2AD11D7C005B4C96 /* Build configuration list for PBXNativeTarget "AudicallDemoTests" */;
+			buildPhases = (
+				5EE5537D0DDD4933C5520BDC /* [CP] Check Pods Manifest.lock */,
+				223773D02AD11D7C005B4C96 /* Sources */,
+				223773D12AD11D7C005B4C96 /* Frameworks */,
+				223773D22AD11D7C005B4C96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				223773D62AD11D7C005B4C96 /* PBXTargetDependency */,
+			);
+			name = AudicallDemoTests;
+			productName = AudicallDemoTests;
+			productReference = 223773D42AD11D7C005B4C96 /* AudicallDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		223773DD2AD11D7C005B4C96 /* AudicallDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223773EE2AD11D7C005B4C96 /* Build configuration list for PBXNativeTarget "AudicallDemoUITests" */;
+			buildPhases = (
+				3C5BF90C4C1C5598E24640FE /* [CP] Check Pods Manifest.lock */,
+				223773DA2AD11D7C005B4C96 /* Sources */,
+				223773DB2AD11D7C005B4C96 /* Frameworks */,
+				223773DC2AD11D7C005B4C96 /* Resources */,
+				4AC0634AE4E26CE6CCC86E6B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				223773E02AD11D7C005B4C96 /* PBXTargetDependency */,
+			);
+			name = AudicallDemoUITests;
+			productName = AudicallDemoUITests;
+			productReference = 223773DE2AD11D7C005B4C96 /* AudicallDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		223773B62AD11D7A005B4C96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					223773BD2AD11D7A005B4C96 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					223773D32AD11D7C005B4C96 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 223773BD2AD11D7A005B4C96;
+					};
+					223773DD2AD11D7C005B4C96 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 223773BD2AD11D7A005B4C96;
+					};
+				};
+			};
+			buildConfigurationList = 223773B92AD11D7A005B4C96 /* Build configuration list for PBXProject "AudicallDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 223773B52AD11D7A005B4C96;
+			productRefGroup = 223773BF2AD11D7A005B4C96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				223773BD2AD11D7A005B4C96 /* AudicallDemo */,
+				223773D32AD11D7C005B4C96 /* AudicallDemoTests */,
+				223773DD2AD11D7C005B4C96 /* AudicallDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		223773BC2AD11D7A005B4C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223773CE2AD11D7C005B4C96 /* LaunchScreen.storyboard in Resources */,
+				223773CB2AD11D7C005B4C96 /* Assets.xcassets in Resources */,
+				223773C92AD11D7A005B4C96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223773D22AD11D7C005B4C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223773DC2AD11D7C005B4C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C5BF90C4C1C5598E24640FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudicallDemo-AudicallDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AC0634AE4E26CE6CCC86E6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AudicallDemo-AudicallDemoUITests/Pods-AudicallDemo-AudicallDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AudicallDemo-AudicallDemoUITests/Pods-AudicallDemo-AudicallDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AudicallDemo-AudicallDemoUITests/Pods-AudicallDemo-AudicallDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EE5537D0DDD4933C5520BDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudicallDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74AD799AA5A7892B18A4520B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudicallDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B70DEC5687C8766E543FCB43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AudicallDemo/Pods-AudicallDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AudicallDemo/Pods-AudicallDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AudicallDemo/Pods-AudicallDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		223773BA2AD11D7A005B4C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228B51732AD3D46500083161 /* NetworkManager.swift in Sources */,
+				223773C62AD11D7A005B4C96 /* ViewController.swift in Sources */,
+				228B51772AD3D82400083161 /* StoryboardHelper.swift in Sources */,
+				223773C22AD11D7A005B4C96 /* AppDelegate.swift in Sources */,
+				228B51712AD3CCE700083161 /* Util.swift in Sources */,
+				228B516F2AD3C5B700083161 /* JionCallViewController.swift in Sources */,
+				223773C42AD11D7A005B4C96 /* SceneDelegate.swift in Sources */,
+				228B51752AD3D49800083161 /* JSONObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223773D02AD11D7C005B4C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223773D92AD11D7C005B4C96 /* AudicallDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223773DA2AD11D7C005B4C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223773E52AD11D7C005B4C96 /* AudicallDemoUITestsLaunchTests.swift in Sources */,
+				223773E32AD11D7C005B4C96 /* AudicallDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		223773D62AD11D7C005B4C96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 223773BD2AD11D7A005B4C96 /* AudicallDemo */;
+			targetProxy = 223773D52AD11D7C005B4C96 /* PBXContainerItemProxy */;
+		};
+		223773E02AD11D7C005B4C96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 223773BD2AD11D7A005B4C96 /* AudicallDemo */;
+			targetProxy = 223773DF2AD11D7C005B4C96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		223773C72AD11D7A005B4C96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				223773C82AD11D7A005B4C96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		223773CC2AD11D7C005B4C96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				223773CD2AD11D7C005B4C96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		223773E62AD11D7C005B4C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		223773E72AD11D7C005B4C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		223773E92AD11D7C005B4C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFD9C14829CFFECA1D8C737 /* Pods-AudicallDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FLYYC9DUJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudicallDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RunnerTests.AudicallDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		223773EA2AD11D7C005B4C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBBFB2E5929B67FF6F21752A /* Pods-AudicallDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FLYYC9DUJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudicallDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RunnerTests.AudicallDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		223773EC2AD11D7C005B4C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D855CE08878D7D8B69C8043A /* Pods-AudicallDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FLYYC9DUJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RunnerTests.AudicallDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudicallDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AudicallDemo";
+			};
+			name = Debug;
+		};
+		223773ED2AD11D7C005B4C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0512D46058D335A5ED1DED62 /* Pods-AudicallDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FLYYC9DUJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RunnerTests.AudicallDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudicallDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AudicallDemo";
+			};
+			name = Release;
+		};
+		223773EF2AD11D7C005B4C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18EC483A00228521A00DEDBF /* Pods-AudicallDemo-AudicallDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FLYYC9DUJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RunnerTests.AudicallDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudicallDemo;
+			};
+			name = Debug;
+		};
+		223773F02AD11D7C005B4C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE6A38F407C4E4DC50E7930 /* Pods-AudicallDemo-AudicallDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FLYYC9DUJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RunnerTests.AudicallDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudicallDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		223773B92AD11D7A005B4C96 /* Build configuration list for PBXProject "AudicallDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223773E62AD11D7C005B4C96 /* Debug */,
+				223773E72AD11D7C005B4C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		223773E82AD11D7C005B4C96 /* Build configuration list for PBXNativeTarget "AudicallDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223773E92AD11D7C005B4C96 /* Debug */,
+				223773EA2AD11D7C005B4C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		223773EB2AD11D7C005B4C96 /* Build configuration list for PBXNativeTarget "AudicallDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223773EC2AD11D7C005B4C96 /* Debug */,
+				223773ED2AD11D7C005B4C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		223773EE2AD11D7C005B4C96 /* Build configuration list for PBXNativeTarget "AudicallDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223773EF2AD11D7C005B4C96 /* Debug */,
+				223773F02AD11D7C005B4C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 223773B62AD11D7A005B4C96 /* Project object */;
+}

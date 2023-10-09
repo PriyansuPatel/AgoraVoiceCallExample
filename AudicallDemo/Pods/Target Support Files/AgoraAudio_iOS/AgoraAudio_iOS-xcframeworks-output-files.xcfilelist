@@ -1,0 +1,10 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/AIAEC/AgoraAiEchoCancellationExtension.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/AINS/AgoraAiNoiseSuppressionExtension.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/AudioBeauty/AgoraAudioBeautyExtension.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/DRM/AgoraDrmLoaderExtension.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/RtcBasic/AgoraRtcKit.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/RtcBasic/AgoraCore.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/RtcBasic/Agorafdkaac.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/RtcBasic/AgoraSoundTouch.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/RtcBasic/Agoraffmpeg.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/SpatialAudio/AgoraSpatialAudioExtension.framework

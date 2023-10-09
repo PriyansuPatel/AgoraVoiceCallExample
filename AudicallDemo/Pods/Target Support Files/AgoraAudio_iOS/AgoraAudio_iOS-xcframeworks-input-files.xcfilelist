@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/AgoraAudio_iOS/AgoraAudio_iOS-xcframeworks.sh
+${PODS_ROOT}/AgoraAudio_iOS/AgoraAiEchoCancellationExtension.xcframework
+${PODS_ROOT}/AgoraAudio_iOS/AgoraAiNoiseSuppressionExtension.xcframework
+${PODS_ROOT}/AgoraAudio_iOS/AgoraAudioBeautyExtension.xcframework
+${PODS_ROOT}/AgoraAudio_iOS/AgoraDrmLoaderExtension.xcframework
+${PODS_ROOT}/AgoraAudio_iOS/AgoraRtcKit.xcframework
+${PODS_ROOT}/AgoraAudio_iOS/AgoraCore.xcframework
+${PODS_ROOT}/AgoraAudio_iOS/Agorafdkaac.xcframework
+${PODS_ROOT}/AgoraAudio_iOS/AgoraSoundTouch.xcframework
+${PODS_ROOT}/AgoraAudio_iOS/Agoraffmpeg.xcframework
+${PODS_ROOT}/AgoraAudio_iOS/AgoraSpatialAudioExtension.xcframework

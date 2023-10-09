@@ -1,0 +1,6 @@
+framework module Pods_AudicallDemoTests {
+  umbrella header "Pods-AudicallDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
